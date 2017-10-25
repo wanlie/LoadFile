@@ -26,7 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		std::cout << "load ok" << std::endl;
 	}
-
+	getchar();
 	getchar();
 	return 0;
 }
