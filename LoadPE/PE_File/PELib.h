@@ -21,7 +21,12 @@ public:
 	bool load_pe_image(PVOID buffer, SIZE_T buffer_size);
 private:
 	std::vector<BYTE> file_buffer;
+
+	bool b_loaded;
+	bool b_image64;
+
 public:
 	
+	bool load_pe_image64(PVOID buffer, SIZE_T buffer_size);
 };
 
